@@ -1,0 +1,26 @@
+# Site settings
+title: THE DARK PASSENGER
+baseurl: ""
+
+# Front Matter Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Dexter Morgan"
+
+# Build settings
+kramdown:
+  input: GFM
+permalink: none
+
+# Third-party services
+# just leave blank to disable it
+google_analytics:
+disqus_shortname:
+
+# Utils
+mathjax: true
