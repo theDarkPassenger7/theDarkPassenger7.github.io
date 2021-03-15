@@ -15,7 +15,8 @@ defaults:
 # Build settings
 kramdown:
   input: GFM
-permalink: none
+permalink:
+
 
 # Third-party services
 # just leave blank to disable it

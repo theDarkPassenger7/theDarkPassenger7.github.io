@@ -55,11 +55,13 @@ td { vertical-align: top; border-bottom: 1px solid #e8e8e8; }
 /** Horizontal rule */
 hr { width: 30%; border: none; border-top: 1px solid #f594a7; margin: 2rem auto; }
 
-.fa { opacity: 0.7; }
+.fa { opacity: 0.7; color: #cc0000; }
 
 .fa:hover { opacity: 0.5; }
 
 .center { display: block; margin-left: auto; margin-right: auto; }
+
+.fas { font-weight: 900; }
 
 /** Clearfix */
 /** MathJax */
