@@ -19,7 +19,7 @@ I will tell you about my first murder, with a faithful reconstruction of all 6 R
 
 The *DB kill_Diary* containing various tables, including the *murders* table. The *murders* table contains the names of the desired past/future victims: <br> <br>
 
-![DB](/images/1Homicide/db2.png) <br> <br>
+![DB](/images/1Homicide/DB2.png) <br> <br>
 
 
 Are you ready to meet *The Dark Passenger*? <br> <br>
