@@ -185,7 +185,7 @@ If I were room 5, I'd feel like Oswald Cobblepot :(
 I felt like a child who had just stuck a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 6th room. The smell of murder was near.
 
 
-The 6nd room, like the preceding one, has been divided into two sub-sections.
+The 6rd room, like the preceding one, has been divided into two sub-sections.
 
 The first section involved the use of Prepared Statements and the build of the Query as shown in the figure. The prepared statements combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the Prepared Statement was written without binding the variables:
 
@@ -198,7 +198,7 @@ The 2nd section of the 6 Room, built the Query, as shown in the figure:
 
 ![DextLab19dext](/images/1Homicide/dextLab19.png)
 
-The 2nd section of the 6 Room used Encoding Charset GBK, and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
+The 2nd section of the 6 Room used Encoding Charset GBK and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
 
 Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Bypass Encoding GBK:
 
