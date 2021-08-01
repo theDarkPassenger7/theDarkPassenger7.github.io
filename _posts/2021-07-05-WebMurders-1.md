@@ -149,7 +149,7 @@ The 4rd Room was as easy as catching a fly for Miyagi :3
 
 ### SQLi Evade Through Misconfigurations ###
 
-I had arrived at room 5 and the blade was getting hotter and warmer. The 5rd Room was divided into 3 different sections, one after the other.
+I had arrived at room 5 and the blade was getting hotter and warmer. The 5rd Room was divided into 2 different sections, one after the other.
 
 The 1 section of the 5 Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()* functions but I realized it was enabled the "NO_BACKSLASH_ESCAPES" directive. The *"NO_BACKSLASH_ESCAPES"* directive disable the default use of the backslash character as an escape character.
 
@@ -166,7 +166,7 @@ Again, the Bypass was quick and easy:
 
 ![DextLab25dext](/images/1Homicide/dextLab25.png)
 
-What would have happened if the "mysql_real_escape" function had been used and the query had been constructed in the following way?  The "mysql_real_enscape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
+What would have happened if the "mysql_real_escape" function had been used and the query had been constructed in the following way, as shown in the figura? The "mysql_real_enscape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
 
 ![DextLab22dext](/images/1Homicide/dextLab22.png)
 
