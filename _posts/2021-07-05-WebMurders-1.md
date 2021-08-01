@@ -206,7 +206,7 @@ Since the Emulated Prepared Statements usually deal with the escape of special c
 
 ![RifScoob](/images/1Homicide/scooby.jpeg)
 
-*For more details, ask your best friend Google about "What is the "What are "Prepared Statements"? Are they enabled by default? If so, in which cases?"*
+*For more details, ask your best friend Google about "What are "Prepared Statements"? Are they enabled by default? If so, in which cases?"*
 
 ### Slice Of Life ###
 
