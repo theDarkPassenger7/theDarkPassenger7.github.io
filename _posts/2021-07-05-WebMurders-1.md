@@ -186,6 +186,7 @@ I felt like a child who had just stuck a pen into the flesh of a bully. Certainl
 
 
 The 6nd room, like the preceding one, has been divided into two sub-sections.
+
 The first section involved the use of Prepared Statements and the build of the Query as shown in the figure. The prepared statements combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the Prepared Statement was written without binding the variables:
 
 ![DextLab18dext](/images/1Homicide/dextLab18.png)
