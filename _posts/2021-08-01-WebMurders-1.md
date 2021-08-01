@@ -59,17 +59,17 @@ I hope not, I don't own *Godric Gryffindor's sword* :)
 *For more details, ask your best friend Google about "SQLi Union Attacks" and "Fields and Structure of a Database MYSQL"*
 
 ### SQLi Multi/Stacked Query
-Fortunately, there was no *Basilisk* in the 2rd room. I would have had trouble dealing with the *Basilisk* without the *Sword of Godric Gryffindor*. In  2rd Room, in addition to not being implemented any security mechanism and building the Query as in the previous case, the system uses a *Database Connector/Driver* that supports *Multi Query*.
+Fortunately, there was no *Basilisk* in the 2rd Room. I would have had trouble dealing with the *Basilisk* without the *Sword of Godric Gryffindor*. In  2rd Room, in addition to not being implemented any security mechanism and building the Query as in the previous case, the system uses a *Database Connector/Driver* that supports *Multi Query*.
 
 ![DextLab4dext](/images/1Homicide/dextLab4.png)
 
 ![DextLab5dext](/images/1Homicide/dextLab5.png)
 
-The 2 room is a paradise. It's like the *Batcave* for *Bruce Wayne* :3
+The 2rd Room is a paradise. It's like the *Batcave* for *Bruce Wayne* :3
 
 ![BatmanRif1](/images/1Homicide/batcave.jpeg)
 
-*For more details, ask your best friend Google about "Is Multi Query Support implemented on the Client or Server side? Does Multi Query Support depend on Application or Server Side? What is the difference between Buffered Query and Unbuffered Query?"*
+*For more details, ask your best friend Google about "Is "Multi Query Support" implemented on the Client or Server side? Does "Multi Query Support" depend on Application or Server Side? What is the difference between "Buffered Query" and "Unbuffered Query"?"*
 
 ### SQLi Evade Sanitizing/Escapes Functions Server Side
 
@@ -83,16 +83,16 @@ It is no longer possible to bypass the 3rd Room using the previous attack method
 
 ![DextLabEx1](/images/1Homicide/dexEx1.png)
 
-The 3rd Room employs the use of an *Encodindg Multi Byte Charset GBK* through a directive configured on the Server side. The directive informs the Server that all information sent from the Client Side is GBK Encoded.
+The 3rd Room employs the use of an *Encodindg Multi Byte Charset GBK* through a directive configured on the Server side. The directive informs the Server that all information sent from the Client Side is *GBK Encoded*.
 
 The goal was to manipulate Url/Request, in order to create a character recognized by the *Charset Encoding GBK*, and to evade/cut the presence of the quotation mark:
 
 ![DextLabEx2](/images/1Homicide/dexEx2.png)
 
 
-In *Percent Encoding (UTF8 Hex)*, the string %27 equals to the quotation mark. The implemented escape function will take care of inserting the backslash character, %5C, a position prior to the quotation mark, obtaining: %5C%27. In GBK Charset, is present a Multi Byte character %87%5C (HEX).
+In *Percent Encoding (UTF8 Hex)*, the string %27 equals to the quotation mark. The implemented escape function will take care of inserting the backslash character, %5C, a position prior to the quotation mark, obtaining: %5C%27. In *GBK Charset*, is present a *Multi Byte character* %87%5C (HEX).
 
-Inserting the %87 character in Percent Encoding (UTF8 HEX) in the url allowed me to successfully Bypass the 3rd Room:
+Inserting the %87 character in *Percent Encoding (UTF8 HEX)* in the url allowed me to successfully Bypass the 3rd Room:
 
 ![DextLabEx3](/images/1Homicide/dexEx3.png)
 
@@ -108,14 +108,14 @@ And as *Sloth* would say, *Supersloooth*!
 
 ![DextLabEx6](/images/1Homicide/goonies.jpg)
 
-*For more details, ask your best friend Google about "How really works Encoding? What is URL Percent Encoding? What are the types of Encoding? What is Internal and External encoding? What is the Character_set_client Variable and how does it work? Are there any other vulnerable Encoding Charset? Is UTF8 vulnerable?*
+*For more details, ask your best friend Google about "How really works Encoding? What is URL Percent Encoding? What are the types of Encoding? What is Internal and External encoding? What is the "Character_set_client" Variable and how does it work? Are there any other vulnerable Encoding Charset? Is UTF8 vulnerable?*
 
 ### SQLi Evade Sanitizing/Escapes Functions Client Side
 
 
-I had arrived at the 4rd Chamber. The need to kill increased room after room. Still 3 Rooms and The Dark Passenger will be satisfied.
+I had arrived at the 4rd Room. The need to kill increased Room after Room. Still 3 Rooms and *The Dark Passenger* will be satisfied.
 
-The 4rd Room allowed to choose the desired *Encoding Charset*, by executing the "SET NAME CHARSET" Query, under the curtains. The "SET NAME CHARSET" Query, directly on the Client Side, allows you to set/modify the type of Encoding used/expected for the data sent from the client side to the Server for the current connection, as shown in the figure:
+The 4rd Room allowed to choose the desired *Encoding Charset*, by executing the "SET NAME CHARSET" Query, under the curtains. The "SET NAME CHARSET" Query, directly on the Client Side, allows you to set/modify the type of Encoding used/expected for the data sent from the Client Side to the Server for the current connection, as shown in the figure:
 
  ![DextLab12dext](/images/1Homicide/dextLab12.png)
 
@@ -149,9 +149,9 @@ The 4rd Room was as easy as catching a fly for Miyagi :3
 
 ### SQLi Evade Through Misconfigurations ###
 
-I had arrived at room 5 and the blade was getting hotter and warmer. The 5rd Room was divided into 2 different sections, one after the other.
+I had arrived at 5rd Room  and the blade was getting hotter and warmer. The 5rd Room was divided into 2 different sections, one after the other.
 
-The 1 section of the 5 Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()* functions but I realized it was enabled the "NO_BACKSLASH_ESCAPES" directive. The *"NO_BACKSLASH_ESCAPES"* directive disable the default use of the backslash character as an escape character.
+The 1 section of the 5rd Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()* functions. I realized it was enabled the "NO_BACKSLASH_ESCAPES" directive. The *"NO_BACKSLASH_ESCAPES"* directive disable the default use of the backslash character as an escape character.
 
 Enabling the *"NO_BACKSLASH_ESCAPES"* directive can makes it useless to use the escape functions *addslashes()* and *mysql_escape_string()*. The Bypass of section 1 of Room 5 is quick and easy, as shown in the figure:
 
@@ -166,12 +166,12 @@ Again, the Bypass was quick and easy:
 
 ![DextLab25dext](/images/1Homicide/dextLab25.png)
 
-What would have happened if the "mysql_real_escape" function had been used and the query had been constructed in the following way, as shown in the figura? The "mysql_real_enscape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
+What would have happened if the "mysql_real_escape" function had been used and the query had been constructed in the following way, as shown in the figure? The "mysql_real_escape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
 
 ![DextLab22dext](/images/1Homicide/dextLab22.png)
 
 
-Although the "NO_BACKSLASH_ESCAPES" directive can open up many avenues of attack, it is also a Workaround to the GBK Encoding Charset problem! Since the backslash character is not inserted, the formation of the previously seen character in Encoding Multi Byte GBK is no longer possible. How to Bypass? I should have identified other weaknesses, and probably helped myself with other weapons.
+Although the "NO_BACKSLASH_ESCAPES" directive can open up many avenues of attack, it is also a Workaround to the *GBK Encoding Charset* issue! Since the backslash character is not inserted, the formation of the previously seen character in *Encoding Multi Byte GBK* is no longer possible. How to Bypass? I should have identified other weaknesses, and probably helped myself with other weapons.
 
 If I were room 5, I'd feel like Oswald Cobblepot :(
 
@@ -182,12 +182,12 @@ If I were room 5, I'd feel like Oswald Cobblepot :(
 
 ### SQLi Evade Prepared Statements ###
 
-I felt like a child who had just stuck a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 6th room. The smell of murder was near.
+I felt like a child who had just stuck a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 6th Room. The smell of murder was near.
 
 
-The 6rd room, like the preceding one, has been divided into two sub-sections.
+The 6rd Room, like the preceding one, has been divided into two sub-sections.
 
-The first section involved the use of Prepared Statements and the build of the Query as shown in the figure. The prepared statements combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the Prepared Statement was written without binding the variables:
+The first section involved the use of *Prepared Statements* and the build of the Query as shown in the figure (Insert ID). The *Prepared Statements* combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the *Prepared Statement* was written without binding the variables:
 
 ![DextLab18dext](/images/1Homicide/dextLab18.png)
 
