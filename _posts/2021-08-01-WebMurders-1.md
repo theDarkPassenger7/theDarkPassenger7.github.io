@@ -136,8 +136,8 @@ In this case, bypass would not have been possible. I would have had to find anot
 
 
 
-![DextLab16dext](/images/1Homicide/dextLab16.png)
-![DextLab17dext](/images/1Homicide/dextLab17.png)
+![DextLab16dext](/images/1Homicide/dextLab16_2.png)
+![DextLab17dext](/images/1Homicide/dextLab_17_2.png)
 
 
 The 4rd Room was as easy as catching a fly for Miyagi :3
@@ -159,12 +159,12 @@ Enabling the *"NO_BACKSLASH_ESCAPES"* directive can makes it useless to use the 
 
 The 2nd section of the 5 Room is identical to the previous section, but uses the *mysql_real_escape_string()* function as an escape function and builds the query as shown in the figure:
 
-![DextLab24dext](/images/1Homicide/DextLab24.png)
+![DextLab24dext](/images/1Homicide/DextLab24_2.png)
 
 
 Again, the Bypass was quick and easy:
 
-![DextLab25dext](/images/1Homicide/dextLab25.png)
+![DextLab25dext](/images/1Homicide/dextLab25_2.png)
 
 What would have happened if the "mysql_real_escape" function had been used and the query had been constructed in the following way, as shown in the figure? The "mysql_real_escape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
 
