@@ -159,7 +159,7 @@ Enabling the *"NO_BACKSLASH_ESCAPES"* directive can makes it useless to use the 
 
 The 2nd section of the 5 Room is identical to the previous section, but uses the *mysql_real_escape_string()* function as an escape function and builds the query as shown in the figure:
 
-![DextLab24dext](/images/1Homicide/DextLab24_2.png)
+![DextLab24dext](/images/1Homicide/DextLab24.png)
 
 
 Again, the Bypass was quick and easy:
@@ -196,7 +196,7 @@ The first section involved the use of *Prepared Statements* and the build of the
 
 The 2nd section of the 6 Room, built the Query, as shown in the figure:
 
-![DextLab19dext](/images/1Homicide/dextLab19.png)
+![DextLab19dext](/images/1Homicide/dextLab19_2.png)
 
 The 2nd section of the 6 Room used Encoding Charset GBK and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
 
