@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THE DARK PASSENGER</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-  <body>
-    <header class="site-header">
-      <a class="site-title" href="/">THE DARK PASSENGER</a>
-      
-    </header>
-    <div class="page-content">
-      <article class="post" >
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">#01 - SQLI: The First Murder Is Never Forgotten</h1>
-    <p class="post-meta"><time datetime="2021-07-05 00:00:00 +0200" itemprop="datePublished">Jul 05, 2021</time> • <span itemprop="author" "><span itemprop="name">Dexter Morgan</span></span></p>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
+I"8<p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
 
 <p><em>June 7 - 1994 - My First Murder</em> <br /> <br />
 <em>Erik Horte</em>, pedophile. He abused 13 boys/girls between the ages of 7 and 13. The “Justice” sentenced <em>Erik Horte</em> to 3 years of house arrest in a protected palace. 13 broken lives. 13 destinies marked. True justice will come soon Erik. Wait for me. I’m coming.</p>
@@ -184,7 +161,7 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p><img src="/images/1Homicide/oswald.jpeg" alt="RifGoth1" /></p>
 
-<p><em>For more details, ask your best friend Google about “What is the “NO_BACKSLASH_ESCAPES” directive and why is it a Workaround for the GBK Charset Encoding issue?”</em></p>
+<p><em>For more details, ask your best friend Google about “SQLi Union Attacks” and “Fields and Structure of a Database MYSQL”</em></p>
 
 <h3 id="sqli-evade-prepared-statements">SQLi Evade Prepared Statements</h3>
 
@@ -207,8 +184,6 @@ The first section involved the use of Prepared Statements and the build of the Q
 
 <p><img src="/images/1Homicide/scooby.jpeg" alt="RifScoob" /></p>
 
-<p><em>For more details, ask your best friend Google about “What is the “What are “Prepared Statements”? Are they enabled by default? If so, in which cases?”</em></p>
-
 <h3 id="slice-of-life">Slice Of Life</h3>
 
 <p>I had prepared the murder room in detail. The beast, naked, tied to a cot, in the center of the room. Around, on the wall, stick photos of all his victims. The last thing he will see before he dies is the 13 broken lives and dreams.</p>
@@ -218,10 +193,4 @@ The first section involved the use of Prepared Statements and the build of the Q
 <p>The Dark Passenger has been fed.</p>
 
 <p><img src="/images/1Homicide/dexblood.jpeg" alt="DextLab31dext" /></p>
-
-  </div>
-</article>
-
-    </div>
-  </body>
-</html>
+:ET

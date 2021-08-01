@@ -177,6 +177,8 @@ If I were room 5, I'd feel like Oswald Cobblepot
 
 ![RifGoth1](/images/1Homicide/oswald.jpeg)
 
+*For more details, ask your best friend Google about "What is the "NO_BACKSLASH_ESCAPES" directive and why is it a Workaround for the GBK Charset Encoding issue?"*
+
 
 ### SQLi Evade Prepared Statements ###
 
@@ -203,6 +205,8 @@ Since the Emulated Prepared Statements usually deal with the escape of special c
 *You killed the dreams of those who lived on cartoons. Now you will be the protagonist of a cartoon.*
 
 ![RifScoob](/images/1Homicide/scooby.jpeg)
+
+*For more details, ask your best friend Google about "What is the "What are "Prepared Statements"? Are they enabled by default? If so, in which cases?"*
 
 ### Slice Of Life ###
 
