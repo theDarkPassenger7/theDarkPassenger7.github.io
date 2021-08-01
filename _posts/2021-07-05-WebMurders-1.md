@@ -193,10 +193,11 @@ The first section involved the use of Prepared Statements and the build of the Q
 
 
 
-The 2nd section of the 6 Room, built the Query, as shown in the figure, used Encoding Charset GBK, and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
-
+The 2nd section of the 6 Room, built the Query, as shown in the figure:
 
 ![DextLab19dext](/images/1Homicide/dextLab19.png)
+
+The 2nd section of the 6 Room used Encoding Charset GBK, and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
 
 Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Bypass Encoding GBK:
 
