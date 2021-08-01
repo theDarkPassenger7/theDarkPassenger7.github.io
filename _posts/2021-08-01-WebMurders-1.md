@@ -132,7 +132,7 @@ What would have happened if the "mysql_set_charset" directive is used instead of
 
 The "mysql_set_charset" directive, in addition to behaving like the "SET NAMES CHARSET" Query, except for differences, such as for example, the setting of various variables, has the task of saving the Encoding Charset selected on the Application/Client side. The "mysql_real_escape_string" function gets the previous saved information and escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
 
-In this case, bypass would not have been possible. I would have had to find another way and maybe use different weapons.
+In this case, bypass would not have been possible. I would have had to find another way and maybe use different weapons:
 
 
 
