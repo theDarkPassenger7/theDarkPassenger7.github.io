@@ -126,7 +126,7 @@ The 4rd Room allowed to choose the desired *Encoding Charset*, by executing the 
 
 I selected GBK and rerun the attack as in the previous case:
 
-![DextLab14dext](/images/1Homicide/dextLab14.png)
+![DextLab14dext](/images/1Homicide/dextLab14_2.png)
 
 What would have happened if the "mysql_set_charset" directive is used instead of "SET NAMES CHARSET in conjuction with mysql_real_escape_string?
 
@@ -196,7 +196,7 @@ The first section involved the use of *Prepared Statements* and the build of the
 
 The 2nd section of the 6 Room, built the Query, as shown in the figure:
 
-![DextLab19dext](/images/1Homicide/dextLab19_2.png)
+![DextLab19dext](/images/1Homicide/dextLab19.png)
 
 The 2nd section of the 6 Room used Encoding Charset GBK and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
 
