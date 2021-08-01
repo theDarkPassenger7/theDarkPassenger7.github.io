@@ -69,11 +69,11 @@ The 2rd Room is a paradise. It's like the *Batcave* for *Bruce Wayne* :3
 
 ![BatmanRif1](/images/1Homicide/batcave.jpeg)
 
-*For more details, ask your best friend Google about "Is "Multi Query Support" implemented on the Client or Server side? Does "Multi Query Support" depend on Application or Server Side? What is the difference between "Buffered Query" and "Unbuffered Query"?"*
+*For more details, ask your best friend Google about "Is "Multi Query Support" implemented on the Client or Server Side? Does "Multi Query Support" depend on Application or Server Side? What is the difference between "Buffered Query" and "Unbuffered Query"?"*
 
 ### SQLi Evade Sanitizing/Escapes Functions Server Side
 
-I had arrived at the 3rd Room. A disturbing Room. The walls engraved with multiple Chinese characters. Poster on the walls with the word GBK.
+I had arrived at the 3rd Room. A disturbing Room. The walls engraved with multiple Chinese characters. Poster on the walls with the word *GBK*.
 
 The 3rd Room implemented a security system, in order to escape some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()*, and *mysql_real_escape_string()* functions, as shown in the figure:
 
@@ -83,7 +83,7 @@ It is no longer possible to bypass the 3rd Room using the previous attack method
 
 ![DextLabEx1](/images/1Homicide/dexEx1.png)
 
-The 3rd Room employs the use of an *Encodindg Multi Byte Charset GBK* through a directive configured on the Server side. The directive informs the Server that all information sent from the Client Side is *GBK Encoded*.
+The 3rd Room employs the use of an *Encoding Multi Byte Charset GBK* through a directive configured on the Server Side. The directive informs the Server that all information sent from the Client Side is *GBK Encoded*.
 
 The goal was to manipulate Url/Request, in order to create a character recognized by the *Charset Encoding GBK*, and to evade/cut the presence of the quotation mark:
 
@@ -100,7 +100,7 @@ Inserting the %87 character in *Percent Encoding (UTF8 HEX)* in the url allowed 
 ![DextLabEx4](/images/1Homicide/dexEx4.png)
 
 
-In order to clearly show evasion/cutting of the quote character, the *Charset GBK* was set in the header of the *Server HTTP Response*:
+In order to clearly show evasion/cutting of the quote character, the *Charset GBK* was set in the Header of the *Server HTTP Response*:
 
 ![DextLabEx5](/images/1Homicide/dexEx5.png)
 
@@ -124,13 +124,13 @@ The 4rd Room allowed to choose the desired *Encoding Charset*, by executing the 
 
  ![DextLab13dext](/images/1Homicide/dextLab13.png)
 
-I selected GBK and rerun the attack as in the previous case:
+I selected *GBK* and rerun the attack as in the previous case:
 
 ![DextLab14dext](/images/1Homicide/dextLab14_2.png)
 
 What would have happened if the "mysql_set_charset" directive is used instead of "SET NAMES CHARSET in conjuction with mysql_real_escape_string?
 
-The "mysql_set_charset" directive, in addition to behaving like the "SET NAMES CHARSET" Query, except for differences, such as for example, the setting of various variables, has the task of saving the Encoding Charset selected on the Application/Client side. The "mysql_real_escape_string" function gets the previous saved information and escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
+The "mysql_set_charset" directive, in addition to behaving like the "SET NAMES CHARSET" Query, except for differences, such as for example, the setting of various variables, has the task of saving the Encoding Charset selected on the Application/Client Side. The "mysql_real_escape_string" function gets the previous saved information and escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
 
 In this case, bypass would not have been possible. I would have had to find another way and maybe use different weapons:
 
@@ -151,13 +151,15 @@ The 4rd Room was as easy as catching a fly for Miyagi :3
 
 I had arrived at 5rd Room  and the blade was getting hotter and warmer. The 5rd Room was divided into 2 different sections, one after the other.
 
-The 1 section of the 5rd Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()* functions. I realized it was enabled the "NO_BACKSLASH_ESCAPES" directive. The *"NO_BACKSLASH_ESCAPES"* directive disable the default use of the backslash character as an escape character.
+The 1 section of the 5rd Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()* and *mysql_escape_string()* functions.
+
+I realized it was enabled the "NO_BACKSLASH_ESCAPES" directive. The *"NO_BACKSLASH_ESCAPES"* directive disable the default use of the backslash character as an escape character.
 
 Enabling the *"NO_BACKSLASH_ESCAPES"* directive can makes it useless to use the escape functions *addslashes()* and *mysql_escape_string()*. The Bypass of section 1 of Room 5 is quick and easy, as shown in the figure:
 
 ![DextLab21dext](/images/1Homicide/dextLab21.png)
 
-The 2nd section of the 5 Room is identical to the previous section, but uses the *mysql_real_escape_string()* function as an escape function and builds the query as shown in the figure:
+The 2nd section of the 5 Room is identical to the previous section, but uses the *mysql_real_escape_string()* function as an escape function and builds the Query as shown in the figure:
 
 ![DextLab24dext](/images/1Homicide/DextLab24.png)
 
@@ -166,7 +168,7 @@ Again, the Bypass was quick and easy:
 
 ![DextLab25dext](/images/1Homicide/dextLab25_2.png)
 
-What would have happened if the "mysql_real_escape" function had been used and the query had been constructed in the following way, as shown in the figure? The "mysql_real_escape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
+What would have happened if the "mysql_real_escape" function had been used and the Query had been constructed in the following way, as shown in the figure? The "mysql_real_escape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
 
 ![DextLab22dext](/images/1Homicide/dextLab22.png)
 
@@ -190,7 +192,6 @@ The 6rd Room, like the preceding one, has been divided into two sub-sections.
 The first section involved the use of *Prepared Statements* and the build of the Query as shown in the figure. The *Prepared Statements* combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the *Prepared Statement* was written without binding the variables:
 
 ![DextLab18dext](/images/1Homicide/dextLab18.png)
-
 
 
 
