@@ -202,7 +202,7 @@ The 2nd section of the 6 Room used Encoding Charset GBK and used the Prepared Qu
 
 Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Bypass Encoding GBK:
 
-![DextLab20dext](/images/1Homicide/dextLab20.png)
+![DextLab20dext](/images/1Homicide/dexEx4.png)
 
 *You killed the dreams of those who lived on cartoons. Now you will be the protagonist of a cartoon.*
 
