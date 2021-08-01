@@ -173,7 +173,7 @@ What would have happened if the "mysql_real_escape" function had been used and t
 
 Although the "NO_BACKSLASH_ESCAPES" directive can open up many avenues of attack, it is also a Workaround to the GBK Encoding Charset problem! Since the backslash character is not inserted, the formation of the previously seen character in Encoding Multi Byte GBK is no longer possible. How to Bypass? I should have identified other weaknesses, and probably helped myself with other weapons.
 
-If I were room 5, I'd feel like Oswald Cobblepot
+If I were room 5, I'd feel like Oswald Cobblepot :(
 
 ![RifGoth1](/images/1Homicide/oswald.jpeg)
 
