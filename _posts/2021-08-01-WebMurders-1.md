@@ -117,7 +117,7 @@ I had arrived at the 4rd Room. The need to kill increased Room after Room. Still
 
 The 4rd Room allowed to choose the desired *Encoding Charset*, by executing the "SET NAME CHARSET" Query, under the curtains. The "SET NAME CHARSET" Query, directly on the Client Side, allows you to set/modify the type of Encoding used/expected for the data sent from the Client Side to the Server for the current connection, as shown in the figure:
 
- ![DextLab12dext](/images/1Homicide/dextLab12.png)
+ ![DextLab12dext](/images/1Homicide/dexLab12_2.png)
 
  Also, the 4rd Room, like the previous Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()*, and *mysql_real_escape_string()* functions, as shown in the figure:
 
@@ -196,7 +196,7 @@ The first section involved the use of *Prepared Statements* and the build of the
 
 The 2nd section of the 6 Room, built the Query, as shown in the figure:
 
-![DextLab19dext](/images/1Homicide/dextLab19.png)
+![DextLab19dext](/images/1Homicide/dextLab19_2.png)
 
 The 2nd section of the 6 Room used Encoding Charset GBK and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
 
