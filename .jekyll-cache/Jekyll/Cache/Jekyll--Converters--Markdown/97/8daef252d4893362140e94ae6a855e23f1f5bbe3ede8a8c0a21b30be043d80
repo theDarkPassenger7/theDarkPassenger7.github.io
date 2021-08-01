@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THE DARK PASSENGER</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+I"�6<p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
 
-  <body>
-    <header class="site-header">
-      <a class="site-title" href="/">THE DARK PASSENGER</a>
-    </header>
-    <div class="page-content">
-      <article class="post" >
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">#01 - SQLI: The First Murder Is Never Forgotten</h1>
-    <p class="post-meta"><time datetime="2021-07-05 00:00:00 +0200" itemprop="datePublished">Jul 05, 2021</time> • <span itemprop="author" "><span itemprop="name">Dexter Morgan</span></span></p>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
-
-<p><em>June 7 - 1994 - My First Murder</em> <br /> <br />
+<p><em>June 7 - 1994 - My First Murder.</em> <br /> <br />
 <em>Erik Horte</em>, pedophile. He abused 13 boys/girls between the ages of 7 and 13. The “Justice” sentenced <em>Erik Horte</em> to 3 years of house arrest in a protected palace. 13 broken lives. 13 destinies marked. True justice will come soon Erik. Wait for me. I’m coming.</p>
 
 <p>I remember my first murder like it was yesterday. My face was pale. Sweat dripped from my forehead. A mixture of adrenaline and fear kept me alive. I’ve been waiting for this moment for 17 years. For 17 years, <em>The Dark Passenger</em> had been hiding inside me. <em>The Dark Passenger</em> was ready to go out. The blood was boiling in my head. My heartbeat increased by the hour, minute by minute, second by second. That day, I chose to use a classic weapon. I love the SQLi blade and it allows you to fully savor the moment. The Blade SQLi has many variations of use but few know its true effectiveness. <em>The Dark Passenger</em> is ready to show you.</p>
@@ -39,8 +17,6 @@ My mission was to kill <em>Erik Horte on the night of June 7, 1994</em>. I was a
 <p><img src="/images/1Homicide/db2.png" alt="DB" /> <br /> <br /></p>
 
 <p>Are you ready to meet <em>The Dark Passenger</em>? <br /> <br /></p>
-
-<p><img src="/images/1Homicide/dexyoung.png" alt="DB" /> <br /> <br /></p>
 
 <h3 id="dexter-morgan-first-murder-kit">Dexter Morgan First Murder Kit:</h3>
 <ul>
@@ -100,7 +76,7 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p><img src="/images/1Homicide/dexEx1.png" alt="DextLabEx1" /></p>
 
-<p>The 3rd Room employs the use of an <em>Encodindg Multi Byte Charset GBK</em> through a directive configured on the Server side. The directive informs the Server that all information sent from the Client Side is GBK Encoded.</p>
+<p>The 3rd Room employs the use of an <em>Encodindg Multi Byte Charset GBK</em> through a directive configured on the Server side. The directive informs the Server that all information sent from the Client Side is GBK encoded.</p>
 
 <p>The goal was to manipulate Url/Request, in order to create a character recognized by the <em>Charset Encoding GBK</em>, and to evade/cut the presence of the quotation mark:</p>
 
@@ -128,7 +104,7 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p>I had arrived at the 4rd Chamber. The need to kill increased room after room. Still 3 Rooms and The Dark Passenger will be satisfied.</p>
 
-<p>The 4rd Room allowed to choose the desired <em>Encoding Charset</em>, by executing the “SET NAME CHARSET” Query, under the curtains. The “SET NAME CHARSET” Query, directly on the Client Side, allows you to set/modify the type of Encoding used/expected for the data sent from the client side to the Server for the current connection, as shown in the figure:</p>
+<p>The 4rd Room allowed to choose the desired Encoding Charset, by executing the “SET NAME CHARSET” Query, under the curtains. The “SET NAME CHARSET” Query, directly on the Client Side, allows you to set/modify the type of Encoding used/expected for the data sent from the client side to the Server for the current connection, as shown in the figure:</p>
 
 <p><img src="/images/1Homicide/dextLab12.png" alt="DextLab12dext" /></p>
 
@@ -140,20 +116,20 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p><img src="/images/1Homicide/dextLab14.png" alt="DextLab14dext" /></p>
 
-<p>What would have happened if the “mysql_set_charset” directive is used instead of “SET NAMES CHARSET in conjuction with mysql_real_escape_string?</p>
+<p>What would have happened if the “mysqli_set_charset” directive is used instead of “SET NAMES CHARSET in conjuction with mysqli_real_escape_string?</p>
 
-<p>The “mysql_set_charset” directive, in addition to behaving like the “SET NAMES CHARSET” Query, except for differences, such as for example, the setting of various variables, has the task of saving the Encoding Charset selected on the Application/Client side. The “mysql_real_escape_string” function gets the previous saved information and escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.</p>
+<p>The “mysqli_set_charset” directive, in addition to behaving like the “SET NAMES CHARSET” Query, except for differences, such as for example, the setting of various variables, has the task of saving the Encoding Charset selected on the Application/Client side. The “mysqli_real_escape_string” function gets the previous saved information and escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.</p>
 
 <p>In this case, bypass would not have been possible. I would have had to find another way and maybe use different weapons.</p>
 
 <p><img src="/images/1Homicide/dextLab16.png" alt="DextLab16dext" />
 <img src="/images/1Homicide/dextLab17.png" alt="DextLab17dext" /></p>
 
-<p>The 4rd Room was as easy as catching a fly for Miyagi :3</p>
+<p>The 4rd Room was as easy as catching a fly for Miyagi</p>
 
 <p><img src="/images/1Homicide/myagi.jpeg" alt="rifKarKid" /></p>
 
-<p><em>For more details, ask your best friend Google about: “What’s the difference between “SET NAMES CHARSET” and “mysql_set_charset”. How does the “mysql_set_charset” directive work? Which variables are set by the “mysql_set_charset” directive and what role do they have?</em></p>
+<p><em>For more details, ask your best friend Google about: “What’s the difference between “SET NAMES CHARSET” and “mysqli_set_charset”. How does the “mysqli_set_charset” directive work? Which variables are set by the “mysqli_set_charset” directive and what role do they have?</em></p>
 
 <h3 id="sqli-evade-through-misconfigurations">SQLi Evade Through Misconfigurations</h3>
 
@@ -161,7 +137,7 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p>The 1 section of the 5 Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the <em>addslashes()</em>, <em>mysql_escape_string()</em> functions but I realized it was enabled the “NO_BACKSLASH_ESCAPES” directive. The <em>“NO_BACKSLASH_ESCAPES”</em> directive disable the default use of the backslash character as an escape character.</p>
 
-<p>Enabling the <em>“NO_BACKSLASH_ESCAPES”</em> directive can makes it useless to use the escape functions <em>addslashes()</em> and <em>mysql_escape_string()</em>. The Bypass of section 1 of Room 5 is quick and easy, as shown in the figure:</p>
+<p>Enabling the <em>“NO_BACKSLASH_ESCAPES”</em> directive makes it useless to use the escape functions <em>addslashes()</em> and <em>mysql_escape_string()</em>. The Bypass of section 1 of Room 5 is quick and easy, as shown in the figure:</p>
 
 <p><img src="/images/1Homicide/dextLab21.png" alt="DextLab21dext" /></p>
 
@@ -173,7 +149,7 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p><img src="/images/1Homicide/dextLab25.png" alt="DextLab25dext" /></p>
 
-<p>What would have happened if the “mysql_real_escape” function had been used and the query had been constructed in the following way?  The “mysql_real_enscape_string” function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:</p>
+<p>What would have happened if the “mysql_real_enscape” function had been used and the query had been constructed in the following way?  The “mysql_real_enscape_string” function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:</p>
 
 <p><img src="/images/1Homicide/dextLab22.png" alt="DextLab22dext" /></p>
 
@@ -185,18 +161,18 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <h3 id="sqli-evade-prepared-statements">SQLi Evade Prepared Statements</h3>
 
-<p>I felt like a child who had just stuck a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 6th room. The smell of murder was near.</p>
+<p>I felt like a child who had just stuck a pencil from a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 7th room. The smell of murder was near.</p>
 
 <p>The 6nd room, like the preceding one, has been divided into two sub-sections.
 The first section involved the use of Prepared Statements and the build of the Query as shown in the figure. The prepared statements combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the Prepared Statement was written without binding the variables:</p>
 
 <p><img src="/images/1Homicide/dextLab18.png" alt="DextLab18dext" /></p>
 
-<p>The 2nd section of the 6 Room, built the Query, as shown in the figure, used Encoding Charset GBK, and used the Prepared Queries including the Binding of the variables, but they were “Emulated Prepared Statements”. A Misconfiguration that will lead to your death Erik.</p>
+<p>The 2nd section of the 6 Room, built the Query, as shown in the figure, used Encoding Charset GBK, used the Prepared Queries including the Binding of the variables, but they were “Emulated Prepared Statements”. A Misconfiguration that will lead to your death Erik.</p>
 
 <p><img src="/images/1Homicide/dextLab19.png" alt="DextLab19dext" /></p>
 
-<p>Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Bypass Encoding GBK:</p>
+<p>Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Encoding GBK</p>
 
 <p><img src="/images/1Homicide/dextLab20.png" alt="DextLab20dext" /></p>
 
@@ -211,12 +187,4 @@ The first section involved the use of Prepared Statements and the build of the Q
 <p><img src="/images/1Homicide/dexKill.jpeg" alt="DextLab30dext" /></p>
 
 <p>The Dark Passenger has been fed.</p>
-
-<p><img src="/images/1Homicide/dexblood.jpeg" alt="DextLab31dext" /></p>
-
-  </div>
-</article>
-
-    </div>
-  </body>
-</html>
+:ET

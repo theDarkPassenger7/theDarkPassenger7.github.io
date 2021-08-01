@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THE DARK PASSENGER</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-  <body>
-    <header class="site-header">
-      <a class="site-title" href="/">THE DARK PASSENGER</a>
-    </header>
-    <div class="page-content">
-      <article class="post" >
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">#01 - SQLI: The First Murder Is Never Forgotten</h1>
-    <p class="post-meta"><time datetime="2021-07-05 00:00:00 +0200" itemprop="datePublished">Jul 05, 2021</time> • <span itemprop="author" "><span itemprop="name">Dexter Morgan</span></span></p>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
+I"v7<p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
 
 <p><em>June 7 - 1994 - My First Murder</em> <br /> <br />
 <em>Erik Horte</em>, pedophile. He abused 13 boys/girls between the ages of 7 and 13. The “Justice” sentenced <em>Erik Horte</em> to 3 years of house arrest in a protected palace. 13 broken lives. 13 destinies marked. True justice will come soon Erik. Wait for me. I’m coming.</p>
@@ -185,18 +163,18 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <h3 id="sqli-evade-prepared-statements">SQLi Evade Prepared Statements</h3>
 
-<p>I felt like a child who had just stuck a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 6th room. The smell of murder was near.</p>
+<p>I felt like a child who had just stuck a pencil from a pen into the flesh of a bully. Certainly not a normal child, but a happy and satisfied child. Here I felt so. Happy and ready to sink the blade into the belly of a person who did not deserve to live. I had arrived at the last and 7th room. The smell of murder was near.</p>
 
 <p>The 6nd room, like the preceding one, has been divided into two sub-sections.
 The first section involved the use of Prepared Statements and the build of the Query as shown in the figure. The prepared statements combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the Prepared Statement was written without binding the variables:</p>
 
 <p><img src="/images/1Homicide/dextLab18.png" alt="DextLab18dext" /></p>
 
-<p>The 2nd section of the 6 Room, built the Query, as shown in the figure, used Encoding Charset GBK, and used the Prepared Queries including the Binding of the variables, but they were “Emulated Prepared Statements”. A Misconfiguration that will lead to your death Erik.</p>
+<p>The 2nd section of the 6 Room, built the Query, as shown in the figure, used Encoding Charset GBK, used the Prepared Queries including the Binding of the variables, but they were “Emulated Prepared Statements”. A Misconfiguration that will lead to your death Erik.</p>
 
 <p><img src="/images/1Homicide/dextLab19.png" alt="DextLab19dext" /></p>
 
-<p>Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Bypass Encoding GBK:</p>
+<p>Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Encoding GBK</p>
 
 <p><img src="/images/1Homicide/dextLab20.png" alt="DextLab20dext" /></p>
 
@@ -213,10 +191,4 @@ The first section involved the use of Prepared Statements and the build of the Q
 <p>The Dark Passenger has been fed.</p>
 
 <p><img src="/images/1Homicide/dexblood.jpeg" alt="DextLab31dext" /></p>
-
-  </div>
-</article>
-
-    </div>
-  </body>
-</html>
+:ET
