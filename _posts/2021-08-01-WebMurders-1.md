@@ -6,12 +6,12 @@ title: "#01 - SQLI: The First Murder Is Never Forgotten"
 ![Dex](/images/dexYoung.jpeg)
 
 *June 7 - 1994 - My First Murder* <br> <br>
-*Erik Horte*, pedophile. He abused 13 boys/girls between the ages of 7 and 13. The "Justice" sentenced *Erik Horte* to 3 years of house arrest in a protected palace. 13 broken lives. 13 destinies marked. True justice will come soon Erik. Wait for me. I'm coming.
+*Erik Horte*, pedophile. He abused 13 boys/girls between the ages of 7 and 13 years. The "Justice" sentenced *Erik Horte* to 3 years of house arrest in a protected palace. 13 broken lives. 13 destinies marked. True justice will come soon Erik. Wait for me. I'm coming.
 
-I remember my first murder like it was yesterday. My face was pale. Sweat dripped from my forehead. A mixture of adrenaline and fear kept me alive. I've been waiting for this moment for 17 years. For 17 years, *The Dark Passenger* had been hiding inside me. *The Dark Passenger* was ready to go out. The blood was boiling in my head. My heartbeat increased by the hour, minute by minute, second by second. That day, I chose to use a classic weapon. I love the SQLi blade and it allows you to fully savor the moment. The Blade SQLi has many variations of use but few know its true effectiveness. *The Dark Passenger* is ready to show you.
+I remember my first murder like it was yesterday. My face was pale. Sweat dripped from my forehead. A mixture of adrenaline held my hand. I've been waiting for this moment for 17 years. For 17 years, *The Dark Passenger* had been hiding inside me. *The Dark Passenger* was ready to go out. The blood was boiling in my head. My heartbeat increased by the hour, minute by minute, second by second. That day, I chose to use a classic weapon. I love the SQLi blade and it allows you to fully savor the moment. The Blade SQLi has many variations of use but few know its true effectiveness. *The Dark Passenger* is ready to show you.
 
-*Erik Horte* was in a secure/protected palace. The palace consisted of 6 security rooms.
-My mission was to kill *Erik Horte on the night of June 7, 1994*. I was and am a nocturnal hunting animal. And you, you were my 1 prey.
+*Erik Horte* was in a secure/protected Palace. The Palace consisted of 6 security Rooms.
+My mission was to kill *Erik Horte on the night of June 7, 1994*. I was and am a nocturnal hunting animal. And you were my first prey.
 
 I will tell you about my first murder, with a faithful reconstruction of all 6 Rooms, through *PHP/MYSQL Laboratories/Simulations* created by myself. The simulation will use a Database called *kill_Diary*, shown below:
 
