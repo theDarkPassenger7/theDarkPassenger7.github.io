@@ -187,7 +187,7 @@ I felt like a child who had just stuck a pen into the flesh of a bully. Certainl
 
 The 6rd Room, like the preceding one, has been divided into two sub-sections.
 
-The first section involved the use of *Prepared Statements* and the build of the Query as shown in the figure (Insert ID). The *Prepared Statements* combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the *Prepared Statement* was written without binding the variables:
+The first section involved the use of *Prepared Statements* and the build of the Query as shown in the figure. The *Prepared Statements* combine the variable with the compiled SQL statement, this means that the SQL and variables are sent separately and the variables are interpreted simply as strings, not as part of the SQL statement. For a moment I feared the worst, then I noticed that the *Prepared Statement* was written without binding the variables:
 
 ![DextLab18dext](/images/1Homicide/dextLab18.png)
 
@@ -198,7 +198,7 @@ The 2nd section of the 6 Room, built the Query, as shown in the figure:
 
 ![DextLab19dext](/images/1Homicide/dextLab19_2.png)
 
-The 2nd section of the 6 Room used Encoding Charset GBK and used the Prepared Queries including the Binding of the variables, but they were "Emulated Prepared Statements". A Misconfiguration that will lead to your death Erik.
+Furthermore, it used *Encoding Charset GBK* and used the *Prepared Queries* including the *Binding* of the variables, but they were *"Emulated Prepared Statements"*. A Misconfiguration that will lead to your death Erik.
 
 Since the Emulated Prepared Statements usually deal with the escape of special characters, such as the quotation mark, the bypass was performed using the techniques seen above, using Bypass Encoding GBK:
 
