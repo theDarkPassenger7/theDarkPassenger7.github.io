@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THE DARK PASSENGER</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-  <body>
-    <header class="site-header">
-      <a class="site-title" href="/">THE DARK PASSENGER</a>
-      
-    </header>
-    <div class="page-content">
-      <article class="post" >
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">#01 - SQLI: The First Murder Is Never Forgotten</h1>
-    <p class="post-meta"><time datetime="2021-08-01 00:00:00 +0200" itemprop="datePublished">Aug 01, 2021</time> • <span itemprop="author" "><span itemprop="name">Dexter Morgan</span></span></p>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
+I"�9<p><img src="/images/dexYoung.jpeg" alt="Dex" /></p>
 
 <p><em>June 7 - 1994 - My First Murder</em> <br /> <br />
 <em>Erik Horte</em>, pedophile. He abused 13 boys/girls between the ages of 7 and 13 years. The “Justice” sentenced <em>Erik Horte</em> to 3 years of house arrest in a protected palace. 13 broken lives. 13 destinies marked. True justice will come soon Erik. Wait for me. I’m coming.</p>
@@ -176,7 +153,7 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 
 <p><img src="/images/1Homicide/dextLab25_2.png" alt="DextLab25dext" /></p>
 
-<p>What would have happened if the “mysql_real_escape” function had been used with <em>“NO_BACKSLASH_ESCAPES”</em> directive and the Query had been constructed in the following way, as shown in the figure? The “mysql_real_escape_string” function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:</p>
+<p>What would have happened if the “mysql_real_escape” function had been used and the Query had been constructed in the following way, as shown in the figure? The “mysql_real_escape_string” function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:</p>
 
 <p><img src="/images/1Homicide/dextLab22.png" alt="DextLab22dext" /></p>
 
@@ -223,10 +200,4 @@ I hope not, I don’t own <em>Godric Gryffindor’s sword</em> :)</p>
 <p>The Dark Passenger has been fed.</p>
 
 <p><img src="/images/1Homicide/dexblood.jpeg" alt="DextLab31dext" /></p>
-
-  </div>
-</article>
-
-    </div>
-  </body>
-</html>
+:ET

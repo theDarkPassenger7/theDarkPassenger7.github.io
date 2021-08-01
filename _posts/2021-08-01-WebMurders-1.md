@@ -108,7 +108,7 @@ And as *Sloth* would say, *Supersloooth*!
 
 ![DextLabEx6](/images/1Homicide/goonies.jpg)
 
-*For more details, ask your best friend Google about "How really works Encoding? What is URL Percent Encoding? What are the types of Encoding? What is Internal and External encoding? What is the "Character_set_client" Variable and how does it work? Are there any other vulnerable Encoding Charset? Is UTF8 vulnerable?*
+*For more details, ask your best friend Google about "How really works Encoding? What is URL Percent Encoding? What are the types of Encoding? What is Internal and External encoding? What is the "Character_set_client" Variable and how does it work? Are there any other vulnerable Encoding Charset? Is UTF8 vulnerable?"*
 
 ### SQLi Evade Sanitizing/Escapes Functions Client Side
 
@@ -168,7 +168,7 @@ Again, the Bypass was quick and easy:
 
 ![DextLab25dext](/images/1Homicide/dextLab25_2.png)
 
-What would have happened if the "mysql_real_escape" function had been used and the Query had been constructed in the following way, as shown in the figure? The "mysql_real_escape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
+What would have happened if the "mysql_real_escape" function had been used with *"NO_BACKSLASH_ESCAPES"* directive and the Query had been constructed in the following way, as shown in the figure? The "mysql_real_escape_string" function escapes the quotation mark, not by inserting the backslash character but by inserting a new quotation mark:
 
 ![DextLab22dext](/images/1Homicide/dextLab22.png)
 
