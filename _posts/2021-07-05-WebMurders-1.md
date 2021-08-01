@@ -149,7 +149,7 @@ The 4rd Room was as easy as catching a fly for Miyagi :3
 
 ### SQLi Evade Through Misconfigurations ###
 
-I had arrived at room 5 and the blade was getting hotter and warmer. The 5th Hall was divided into 3 different sections, one after the other.
+I had arrived at room 5 and the blade was getting hotter and warmer. The 5rd Room was divided into 3 different sections, one after the other.
 
 The 1 section of the 5 Room, implements the safety mechanism that escapes some characters, such as the quotation mark, using the *addslashes()*, *mysql_escape_string()* functions but I realized it was enabled the "NO_BACKSLASH_ESCAPES" directive. The *"NO_BACKSLASH_ESCAPES"* directive disable the default use of the backslash character as an escape character.
 
@@ -159,7 +159,7 @@ Enabling the *"NO_BACKSLASH_ESCAPES"* directive can makes it useless to use the 
 
 The 2nd section of the 5 Room is identical to the previous section, but uses the *mysql_real_escape_string()* function as an escape function and builds the query as shown in the figure:
 
-![DextLab24dext](/images/1Homicide/dextLab24.png)
+![DextLab24dext](/images/1Homicide/DextLab24.png)
 
 
 Again, the Bypass was quick and easy:
